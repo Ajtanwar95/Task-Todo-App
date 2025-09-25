@@ -31,5 +31,3 @@ dist-ssr/
 .env.test.local
 .env.production.local
 
-# Firebase secrets
-/src/firebase.js
