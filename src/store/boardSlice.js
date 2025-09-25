@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { v4 as uuidv4 } from 'uuid';
 import { ref, set } from 'firebase/database';
-import { database } from '../firebase';    
+import { database } from './firebase';    
 
 const initialState = {
   columns: {},
